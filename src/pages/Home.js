@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../components/Layout";
 import {
-  FaAngular,
   FaBootstrap,
   FaCss3,
   FaHtml5,
-  FaJava,
   FaJsSquare,
-  FaNode,
   FaNodeJs,
   FaReact,
+  FaSwift,
 } from "react-icons/fa";
+import { SiMicrosoftazure } from "react-icons/si";
+
 import AOS from "aos";
 AOS.init({
   duration: 1000,
@@ -36,7 +36,7 @@ function Home() {
                 Hi, i am <b className="text-yellow-500">Vijaya Kumar</b>
               </h1>
               <h1 className="text-4xl md:text-xl" data-aos="slide-left">
-                FullStack <b className="text-red-500">Developer</b>, Instructor
+                FullStack <b className="text-red-500">Developer</b>
               </h1>
             </div>
           </div>
@@ -54,12 +54,12 @@ function Home() {
               color="cyan"
               className="w-full text-center mt-20"
             />
-            <FaAngular
+            <FaSwift
               size={180}
               color="red"
               className="w-full text-center mt-20 animate-bounce"
             />
-            <FaJava
+            <SiMicrosoftazure
               size={180}
               color="orange"
               className="w-full text-center mt-20 animate-bounce"
@@ -140,13 +140,13 @@ function Home() {
             </div>
             <div className="grid md:grid-cols-1 grid-cols-3 p-5">
               <div className="text-left">
-                <h1 className="text-xl font-bold">Front End</h1>
+                <h1 className="text-xl font-bold">Mobile/Web</h1>
                 <hr />
+                <p className="font-semibold my-2">iOS</p>
+                <p className="font-semibold my-2">Objective-C / Swift</p>
                 <p className="font-semibold my-2">HTML/CSS</p>
-                <p className="font-semibold my-2">React</p>
-                <p className="font-semibold my-2">Redux</p>
                 <p className="font-semibold my-2">JavaScript</p>
-                <p className="font-semibold my-2">Angular</p>
+                <p className="font-semibold my-2">React</p>
               </div>
 
               <div className="text-center">
@@ -156,7 +156,7 @@ function Home() {
                 <p className="font-semibold my-2">Tailwind</p>
                 <p className="font-semibold my-2">Antd</p>
                 <p className="font-semibold my-2">Meterial UI</p>
-                <p className="font-semibold my-2">Scemantic UI</p>
+                <p className="font-semibold my-2">Figma / Sketch / Zeplin</p>
               </div>
 
               <div className="text-right">
@@ -164,9 +164,9 @@ function Home() {
                 <hr />
                 <p className="font-semibold my-2">Node JS</p>
                 <p className="font-semibold my-2">Express</p>
-                <p className="font-semibold my-2">Php</p>
                 <p className="font-semibold my-2">MySQL</p>
                 <p className="font-semibold my-2">Mongo DB</p>
+                <p className="font-semibold my-2">Docker</p>
               </div>
             </div>
           </div>
