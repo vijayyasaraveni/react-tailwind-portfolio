@@ -36,7 +36,7 @@ function Home() {
                 Hi, i am <b className="text-yellow-500">Vijaya Kumar</b>
               </h1>
               <h1 className="text-4xl md:text-xl" data-aos="slide-left">
-                FullStack <b className="text-red-500">Developer</b>, Instructor
+                FullStack <b className="text-red-500">Developer</b>
               </h1>
             </div>
           </div>
